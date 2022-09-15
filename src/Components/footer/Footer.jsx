@@ -2,11 +2,13 @@ import React from "react";
 import "./footer.css";
 import { RiTwitterLine } from "react-icons/ri";
 import { AiOutlineInstagram } from "react-icons/ai";
+import logo from "../../assets/logo5.png"
+
 const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer_logo">
-        logo
+      <img src={logo} alt="" className="footer_logo-img" />
       </a>
       <ul className="permalinks">
         <li>

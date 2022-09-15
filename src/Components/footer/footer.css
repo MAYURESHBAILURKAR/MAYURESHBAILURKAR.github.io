@@ -51,7 +51,13 @@ footer a {
   margin-bottom: 4rem;
   color: var(--color-bg);
 }
-
+.footer_logo-img {
+  height: 60px;
+  width: 100%;
+}
+.footer_logo-img:hover {
+  filter: invert(1);
+}
 /*============== MEDIA QUERIES (MEDIUN DEVICES) ============ */
 @media screen and (max-width: 1024px) {
   .permalinks {

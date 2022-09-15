@@ -13,7 +13,7 @@ import TopNavbar from "./Components/topnavbar/TopNavbar";
 function App() {
   return (
     <div className="App">
-      {/* <TopNavbar/> */}
+      <TopNavbar/>
       <Header />
       <Navbar />
       <About />
@@ -22,10 +22,6 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>PORTFOLIO INPROGRESS</p>
-      </header>
     </div>
   );
 }
