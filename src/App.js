@@ -8,10 +8,12 @@ import Services from "./Components/services/Services";
 import Portfolio from "./Components/portfolio/Portfolio";
 import Contact from "./Components/contact/Contact";
 import Footer from "./Components/footer/Footer";
+import TopNavbar from "./Components/topnavbar/TopNavbar";
 
 function App() {
   return (
     <div className="App">
+      {/* <TopNavbar/> */}
       <Header />
       <Navbar />
       <About />

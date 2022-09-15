@@ -1,0 +1,75 @@
+.about_cards {
+  width: 30rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.about_card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about_card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.about_icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.about_card h5 {
+  font-size: 0.95rem;
+}
+
+.about_card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+.about_content p {
+  margin: 2.5rem 0 2.6rem;
+  color: var(--color-light);
+}
+.about_btn{
+  margin: 4rem 0;
+}
+/*============== MEDIA QUERIES (MEDIUN DEVICES) ============ */
+@media screen and (max-width: 1024px) {
+  .about_cards {
+    width: 30rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .about_content p {
+    margin: 2.5rem 0 2.5rem;
+  }
+}
+
+/*============== MEDIA QUERIES (MEDIUN DEVICES) ============ */
+@media screen and (max-width: 600px) {
+  .about_cards {
+    width: 15rem;
+    gap: 1rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about_content {
+    text-align: center;
+  }
+
+  .about_content p{
+    margin: 2.5rem 0;
+  }
+}

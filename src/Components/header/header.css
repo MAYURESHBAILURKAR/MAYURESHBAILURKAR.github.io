@@ -127,10 +127,10 @@ header {
     line-height: normal;
   }
 
-  .header_socials,
+  /* .header_socials,
   .mail-container {
     display: none;
-  }
+  } */
 }
 
 /*============== MEDIA QUERIES (MEDIUN DEVICES) ============ */
