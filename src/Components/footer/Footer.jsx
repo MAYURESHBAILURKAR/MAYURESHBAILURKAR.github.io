@@ -2,13 +2,15 @@ import React from "react";
 import "./footer.css";
 import { RiTwitterLine } from "react-icons/ri";
 import { AiOutlineInstagram } from "react-icons/ai";
-import logo from "../../assets/logo5.png"
+import { BsLinkedin } from "react-icons/bs";
+
+import logo from "../../assets/logo5.png";
 
 const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer_logo">
-      <img src={logo} alt="" className="footer_logo-img" />
+        <img src={logo} alt="" className="footer_logo-img" />
       </a>
       <ul className="permalinks">
         <li>
@@ -33,6 +35,9 @@ const Footer = () => {
         </a>
         <a href="https://twitter.com/mayureshbb" target="_blank">
           <RiTwitterLine />
+        </a>
+        <a href="https://twitter.com/mayureshbb" target="_blank">
+          <BsLinkedin />
         </a>
       </div>
       <div className="footer_copyright">
