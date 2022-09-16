@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+ /* border: 1px red solid; */
 }
 
 .experience_container > div {
@@ -33,14 +34,22 @@
 
 .experience_details {
   display: flex;
+  margin: auto;
   gap: 1rem;
+  /* border: 1px red solid; */
 }
 
 .experience_details_icon {
-  margin-top: 6px;
+  margin-top: 4px;
   color: var(--color-primary);
+  /* border: 1px red solid; */
 }
 
+.experience_details_skill_icon {
+  margin-top: 2px;
+  color: var(--color-white);
+  /* border: 1px red solid; */
+}
 /*============== MEDIA QUERIES (MEDIUN DEVICES) ============ */
 @media screen and (max-width: 1024px) {
   .experience_container {
