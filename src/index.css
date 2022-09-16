@@ -47,6 +47,11 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
+  /* background: linear-gradient(url(./assets/videobg.gif), transparent); */
+  /* background-image: url(./assets/logo5.png); */
+  /* background-size:2rem; */
+  /* mix-blend-mode:hard-light; */
+  /* backdrop-filter: blur(15px); */
   color: var(--color-white);
   line-height: 1.7;
 }

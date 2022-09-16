@@ -1,0 +1,60 @@
+details {
+  padding: 0.5em;
+}
+
+details {
+  font-size: 12px;
+  margin: 2em auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background: var(--color-bg-variant);
+  border-radius: 8px;
+  position: relative;
+}
+
+.summary-title {
+  user-select: none;
+}
+
+details:hover {
+  cursor: pointer;
+}
+
+.summary-content {
+  border-top: 1px solid #e2e8f0;
+  cursor: default;
+  padding: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+summary {
+  list-style: none;
+  padding: 1rem;
+}
+summary:focus {
+  outline: none;
+}
+
+summary:hover .summary-chevron-up svg {
+  opacity: 1;
+}
+
+.summary-chevron-up svg {
+  opacity: 0.5;
+}
+
+.summary-chevron-up,
+.summary-chevron-down {
+  pointer-events: none;
+  position: absolute;
+  top: 0.75em;
+  right: 1rem;
+  background: var(--color-bg-variant);
+}
+/* svg {
+  display: block;
+} */
+
+summary::-webkit-details-marker {
+  display: none;
+}

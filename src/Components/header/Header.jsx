@@ -6,7 +6,6 @@ import TypingEffect from "./TypingEffect";
 const Header = () => {
   return (
     <header>
-       
       <div className="container header_container">
         <div className="header_text">
           <h3>Hello I'm</h3>
