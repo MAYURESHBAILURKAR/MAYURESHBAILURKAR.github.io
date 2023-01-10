@@ -3,12 +3,14 @@ import "./portfolio.css";
 import Skinstore from "../../assets/Site1.PNG";
 import hiver from "../../assets/site2.PNG";
 import shop from "../../assets/site3.PNG";
-import { FaReact } from "react-icons/fa";
+import Mytheresa from "../../assets/Site4.jpg";
+import { FaNodeJs, FaReact } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
-import { SiChakraui } from "react-icons/si";
+import { SiChakraui, SiExpress, SiMongodb, SiRedux } from "react-icons/si";
 import { ImHtmlFive } from "react-icons/im";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
+import { GiPlatform } from "react-icons/gi";
 
 import Content_port from "./Content_port";
 
@@ -16,6 +18,60 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      img: Mytheresa,
+      title: "Mytheresa.com (Clone)",
+      github: "https://github.com/MAYURESHBAILURKAR/Mytheresa/tree/main",
+      live: "https://mytheresa-neon.vercel.app/",
+      techStack: [
+        {
+          image: <FaReact />,
+          title: "React",
+        },
+        {
+          image: <FaNodeJs />,
+          title: "Node JS",
+        },
+
+        {
+          image: <SiMongodb />,
+          title: "MongoDB",
+        },
+        {
+          image: <SiRedux />,
+          title: "Redux",
+        },
+        {
+          image: <SiExpress />,
+          title: "Express JS",
+        },
+        {
+          image: <DiJavascript1 />,
+          title: "JS-ES6",
+        },
+        {
+          image: <SiChakraui />,
+          title: "Chakra Ui",
+        },
+        {
+          image: <GiPlatform />,
+          title: "Formik",
+        },
+        {
+          image: <ImHtmlFive />,
+          title: "HTML",
+        },
+      ],
+      des: `Hey👋, this is the clone of one of the best E-commerce website named “Mytheresa.com”. This project was assigned to me in construct week . Mytheresa.com a E-commerce website where they sell finest edit in luxury fashion for women, men and kids.`,
+      features: [
+        "End-to-End product purchasing flow from the website.",
+        "Login check with (reqres.in), Sorting, and Filtering features for products ",
+        "Individual Project completed in 1 week.",
+        "Displaying products added to the cart with details like price, size,quantity, etc.",
+        "The functionality provided to increase the quantity of a product,and changes in price to be displayed under each product and subtotal.Executed the Project with pixel-perfect accuracy and provided important functionalities.",
+      ],
+    },
+    {
+      id: 2,
       img: Skinstore,
       title: "SkinStore.com (Clone)",
       github: "https://github.com/MAYURESHBAILURKAR/supreme-honey-5251",
@@ -23,7 +79,7 @@ const Portfolio = () => {
       techStack: [
         {
           image: <FaReact />,
-          title: "React",
+          title: "React JS",
         },
         {
           image: <DiJavascript1 />,
@@ -52,7 +108,7 @@ const Portfolio = () => {
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: hiver,
       title: "Hiver.com (Clone)",
       github: "https://github.com/MAYURESHBAILURKAR/puffy-rain-1236",
@@ -80,7 +136,7 @@ const Portfolio = () => {
       ],
     },
     {
-      id: 3,
+      id: 4,
       img: shop,
       title: "Shop.com (Clone)",
       github: "https://github.com/Kunalyerunkar/Shope-Clone",
