@@ -63,11 +63,13 @@ const Portfolio = () => {
       ],
       des: `Hey👋, this is the clone of one of the best E-commerce website named “Mytheresa.com”. This project was assigned to me in construct week . Mytheresa.com a E-commerce website where they sell finest edit in luxury fashion for women, men and kids.`,
       features: [
-        "End-to-End product purchasing flow from the website.",
-        "Login check with (reqres.in), Sorting, and Filtering features for products ",
-        "Individual Project completed in 1 week.",
-        "Displaying products added to the cart with details like price, size,quantity, etc.",
-        "The functionality provided to increase the quantity of a product,and changes in price to be displayed under each product and subtotal.Executed the Project with pixel-perfect accuracy and provided important functionalities.",
+        "Designed and developed a user-friendly website basis client requirements.",
+        "Designed back-end as well as front-end with optimum security.",
+        "Backend MVC-based Architecture contains Users, products, and respective cart details.",
+        "Designed Redux single flow of data and added Authentication, Search Bar, Sorting, and Filtering features for products.",
+        "Used Stripe Payment Infrastructure for checkout.",
+        "Developing and maintaining software solutions using SDLC standards and best practices.",
+        "Added responsive components for all screen sizes.",
       ],
     },
     {
