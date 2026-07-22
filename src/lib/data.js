@@ -27,7 +27,7 @@ export const PERSONAL = {
   title: 'Full-Stack Software Developer',
   tagline: 'Building scalable, elegant, AI-driven web and mobile applications since 2023.',
   /* GEO-optimized bio: entity-first, factual, answer-rich */
-  bio: "I'm Mayuresh Bailurkar, a full-stack software developer based in Pune, India. I design, build, and ship production-grade web and mobile applications — from microservices backends and AI-powered APIs to performant React and Angular frontends. My work bridges clean architecture, thoughtful UX, and fast execution.",
+  bio: "I'm Mayuresh Bailurkar, a Software Developer at Firsteigen, based in Pune, India. I design, build, and ship production-grade web and mobile applications from microservices backends and AI-powered APIs to performant React and Angular frontends. My work bridges clean architecture, thoughtful UX, and fast execution.",
   email: 'mayureshbailurkar@gmail.com',
   location: 'Pune, Maharashtra, India',
   available: true,
@@ -55,7 +55,7 @@ export const STATS = [
 export const FAQS = [
   {
     question: 'Who is Mayuresh Bailurkar?',
-    answer: 'Mayuresh Bailurkar is a Full-Stack Software Developer based in Pune, Maharashtra, India. He has been shipping production web and mobile applications since February 2023, specializing in Angular (v17-v19 with Signals), React 18+, React Native (Expo), Node.js microservices with Express, MongoDB, TypeScript, Docker, and AI integrations using the Gemini API.',
+    answer: 'Mayuresh Bailurkar is a Full-Stack Software Developer, based in Pune, Maharashtra, India. He has been shipping production web and mobile applications since February 2023, specializing in Angular (v17-v19 with Signals), React 18+, React Native (Expo), Node.js microservices with Express, MongoDB, TypeScript, Docker, and AI integrations using the Gemini API.',
   },
   {
     question: 'What technologies does Mayuresh Bailurkar specialize in?',
@@ -71,7 +71,7 @@ export const FAQS = [
   },
   {
     question: 'Is Mayuresh available for freelance or full-time work?',
-    answer: 'Yes, Mayuresh is available for new opportunities — both freelance projects and full-time roles. He is open to remote work worldwide from his base in Pune, India. Companies can reach him via the contact form on his portfolio or directly at mayureshbailurkar@gmail.com.',
+    answer: 'Mayuresh is currently working full-time as a Software Developer at Firsteigen but remains open to new opportunities. He is open to remote work worldwide from his base in Pune, India. Companies can reach him via the contact form on his portfolio or directly at mayureshbailurkar@gmail.com.',
   },
   {
     question: 'How can companies contact Mayuresh?',
@@ -341,12 +341,45 @@ export const TECH_MARQUEE = [
 // ─── EXPERIENCE TIMELINE ──────────────────────────────────────
 export const TIMELINE = [
   {
-    year: 'Aug 2025 — Present',
+    year: 'Jun 2026 — Present',
+    role: 'Software Developer',
+    company: 'Firsteigen, India',
+    type: 'work',
+    description:
+      `• Developing and maintaining responsive, scalable web applications using Angular, TypeScript, HTML, and CSS.
+• Building reusable and maintainable UI components following clean architecture and best development practices.
+• Collaborating with UI/UX designers and backend developers to deliver high-quality, production-ready user experiences.
+• Participating in code reviews, debugging, testing, and performance optimization to improve application quality.
+• Integrating frontend applications with REST APIs and backend services.
+• Following clean coding standards, Git workflows, and Agile development practices.
+• Optimizing application performance, responsiveness, and accessibility.
+• Contributing to feature development, bug fixes, and continuous product improvements.
+• Writing clean, reusable, and well-documented code.
+
+Achievements:
+• Developed and maintained modern Angular web applications.
+• Built reusable UI components for scalable development.
+• Improved application quality through testing, debugging, and code reviews.
+• Collaborated with cross-functional teams to deliver production-ready features.
+• Followed clean architecture and best development practices.`,
+  },
+  {
+    year: 'Aug 2025 — May 2026',
     role: 'Freelance Full Stack Developer',
     company: 'Self-Directed Projects',
     type: 'work',
     description:
-      'Designing and shipping scalable web and mobile applications end-to-end. Built a microservices platform with AI-powered Gemini API messaging, a React Native logistics app with offline-first architecture and WhatsApp approval deep linking, and a MERN e-commerce platform with Stripe payments.',
+      `• Designing and shipping scalable web and mobile applications end-to-end. Built a microservices platform with AI-powered Gemini API messaging, a React Native logistics app with offline-first architecture and WhatsApp approval deep linking, and a MERN e-commerce platform with Stripe payments.
+       WishSphere: Architecting and developing a scalable microservices backend, successfully transitioning from a monolithic
+application to improve component independence and maintainability.
+• Designed and containerized independent services using Docker, including an Express API Gateway, an AI Message Generation
+service powered by the Gemini API, and a Guestbook service with stateless JWT authentication.
+• Nexus Supply (Mobile WMS): Architected a cross-platform logistics app using React Native, Expo Router, and
+Tamagui, streamlining warehouse workflows and dynamic payout tracking.
+• Designed a high-performance UI utilizing Tamagui and built a secure RESTful API with Node.js/MongoDB, implementing strict
+Role-Based Access Control (RBAC) via JWT for administrators and workers.
+• Engineered a shipment tracking engine that calculates dynamic worker payouts based on product quantities, and integrated
+automated WhatsApp deep linking for instant approval notifications.`,
   },
   {
     year: 'Feb 2023 — Aug 2025',
@@ -354,7 +387,14 @@ export const TIMELINE = [
     company: 'MAIARA Technologies Pvt. Ltd., Pune',
     type: 'work',
     description:
-      'Delivered enterprise fintech and loyalty applications for corporate clients using Angular, Ionic, Bootstrap, SCSS, Node.js, and REST APIs. Improved dashboard responsiveness by 30% through lazy loading and memoized selectors. Implemented hierarchical RBAC systems and biometric authentication for banking apps.',
+      `• Developed and maintained enterprise-grade web and mobile applications for banking, financial services, reconciliation, and loyalty management domains using Angular, Ionic Angular, Node.js, and MongoDB.
+ • Built scalable and responsive user interfaces with Angular 17/19, Bootstrap, SCSS, and TypeScript, improving application performance and user experience.
+ • Designed and implemented Role-Based Access Control (RBAC), JWT authentication, and permission management systems to enhance security and access governance.
+ • Developed complex business modules including reconciliation schedulers, rule engines, segment and criteria management systems, and loyalty program workflows.
+ • Collaborated closely with backend teams to integrate REST APIs, optimize data handling, and ensure seamless end-to-end functionality.
+ • Improved application responsiveness and reduced load times through lazy loading, code optimization, and efficient state management techniques.
+ • Development frontend for cross-platform mobile applications using Ionic Angular, delivering consistent experiences across Android and iOS platforms.
+ • Contributed to architecture discussions, feature planning, code reviews, and Agile development processes while consistently delivering high-quality solutions within project timelines.`,
   },
   {
     year: '2018',
@@ -362,7 +402,7 @@ export const TIMELINE = [
     company: 'KLE Engineering College, Belgaum',
     type: 'education',
     description:
-      'Bachelor of Engineering (Civil Engineering). Developed analytical and problem-solving skills that transferred directly into software engineering — systematic thinking, constraint analysis, and structured problem decomposition.',
+      'Bachelor of Engineering (Civil Engineering). Developed analytical and problem-solving skills that transferred directly into software engineering, systematic thinking, constraint analysis, and structured problem decomposition.',
   },
   {
     year: '2014',
